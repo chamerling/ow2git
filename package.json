@@ -1,0 +1,38 @@
+{
+  "name": "ow2git",
+  "version": "0.0.1",
+  "description": "OW2 Fake API Sample :: CLI Tools",
+  "author": "Christophe Hamerling <christophe.hamerling@gmail.com>",
+  "homepage": "http://github.com/chamerling/ow2git",
+  "keywords": [
+    "node"
+  ],
+  "maintainers": [{
+    "name": "Christophe Hamerling",
+    "email": "christophe.hamerling@gmail.com"
+  }],
+  "contributors": [],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://mths.be/mit"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/chamerling/ow2git.git"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "dependencies": {
+    "gitoriou.js": "0.0.1",
+    "optimist": "0.3.4",
+    "async" : "latest",
+    "shelljs" : "latest",
+    "colors" : "latest",
+    "underscore" : "latest"
+  },
+  "bin" : {
+    "ow2git" : "./bin/ow2git"
+  }
+}
