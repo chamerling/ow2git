@@ -1,6 +1,6 @@
 {
   "name": "ow2git",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OW2 Fake API Sample :: CLI Tools",
   "author": "Christophe Hamerling <christophe.hamerling@gmail.com>",
   "homepage": "http://github.com/chamerling/ow2git",
