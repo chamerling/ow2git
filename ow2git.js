@@ -11,7 +11,6 @@ var _ = require('underscore')
   , colors = require('colors');
 
 var cli = function() {
-  console.log(argv.clone)
   if (argv.clone) {
     clone(argv.clone, function() {
       console.log('[IFNO] Launched'.green)
