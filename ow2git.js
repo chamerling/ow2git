@@ -13,7 +13,7 @@ var _ = require('underscore')
 var cli = function() {
   if (argv.clone) {
     clone(argv.clone, function() {
-      console.log('[IFNO] Launched'.green)
+      console.log('[INFO] Launched'.green)
     });
   } else {
     console.log('[ERROR] Bad command, bye!'.red)
